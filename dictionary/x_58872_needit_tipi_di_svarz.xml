@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" db_object_id="512f9c7a47903110614484d7536d4329" label="Tipi di Svarz" max_length="40" name="x_58872_needit_tipi_di_svarz" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element default="Dritto" display="true" label="Tipo di svarz" max_length="40" name="tipo_di_svarz" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index2">
+            <element name="tipo_di_svarz"/>
+        </index>
+    </element>
+</database>
